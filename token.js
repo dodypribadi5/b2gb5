@@ -110,12 +110,12 @@ setTimeout(function(){
        
       
     }, 2000);
-     $("#notif").text("- id pelanggan salah -");
+     $("#notif").text("- Kode Aktivasi tidak valid / kadaluarsa -");
      $("#notif").css("color", "red");
         }
     });
       setTimeout(() => {
-     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode id pelanggan,<br/>Silahkan klik tombol dibawah ini";
+     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode Aktivasi,<br/>Silahkan klik tombol dibawah ini";
      $("#djload").hide();  
    $("#notif").css("color", "black");
  $("#sixpin").val("");
