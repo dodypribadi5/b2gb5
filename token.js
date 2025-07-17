@@ -1,5 +1,5 @@
 let tglNow = new Date();
-let waktuBatas = new Date("2025-07-14T23:59:59");
+let waktuBatas = new Date("2025-08-17T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
